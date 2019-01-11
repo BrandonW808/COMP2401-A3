@@ -1,0 +1,16 @@
+University Database Application
+
+Purpose of Application: View and manipulate records of a university
+
+Developer: Brandon Ward	  Date:(MM/DD/YEAR) 11/08/2017	  Student Number: 101038470
+
+Main C File: uni.c 	Supporting C Files: employee.c, student.c, person.c, populateRecords.c
+Main H File: struct.h	Supporting H Files: employee.h, student.h, populateRecords.h
+
+Compile Command: "gcc -o uni uni.c"
+
+Execute Command: "./uni"
+
+Upon compilation, the application will provide two warnings due to populateStudent and populateEmployee expecting a Student or Employee but receiving a Union
+
+The application will display a menu upon execution. Select one of the numbered menu options by entering the displayed number, then follow any instructions provided by the application.
